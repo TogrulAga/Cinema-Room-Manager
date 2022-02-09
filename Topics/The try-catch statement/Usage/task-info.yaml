@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: For creating new exceptions
+- text: To stop the program safely in case of an exception thrown
+- text: For programmers who are not sure their code will work
+- text: In order for the program to stop if an exception could potentially occur
+- text: For handling exceptions without stopping the whole program
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10623#comment
+status: Solved
+record: -1
